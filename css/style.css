@@ -8,9 +8,6 @@ body {
     font-size: xx-large;
     margin-top: 0px;
   }
-  p {
-    color: magenta;
-  }
 
   figure { 
     display: table; 
