@@ -1,0 +1,57 @@
+body {
+    background-color: powderblue;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    color: palevioletred;
+  }
+  h1 {
+    font-family: "Sofia", sans-serif;
+    font-size: xx-large;
+    margin-top: 0px;
+  }
+  p {
+    color: magenta;
+  }
+
+  figure { 
+    display: table; 
+  }
+
+figcaption { 
+  font-style: italic;
+  display: table-caption; 
+  caption-side: bottom; 
+  text-align: center;
+}
+
+a:link, :visited {
+  color: magenta;
+  font-weight: bold;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+.dashed-border {
+  padding: 50px;
+  border: 2px dashed hotpink;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.block {
+  display: block;
+}
+
+.bottom-margin {
+  margin-bottom: 10px;
+}
